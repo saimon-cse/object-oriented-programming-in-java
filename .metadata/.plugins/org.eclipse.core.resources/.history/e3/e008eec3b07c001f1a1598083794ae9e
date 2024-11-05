@@ -1,0 +1,5 @@
+package practiceExam;
+
+public abstract class Abst {
+
+}

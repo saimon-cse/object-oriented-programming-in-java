@@ -1,0 +1,13 @@
+package practiceExam;
+import java.util.*;
+
+class Main {
+  	
+	public static void main(String[] args) {
+		
+		Vehical c = new Car();
+		c.run();
+	
+		
+	}    
+}

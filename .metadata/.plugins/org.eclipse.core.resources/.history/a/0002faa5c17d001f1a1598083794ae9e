@@ -1,0 +1,5 @@
+package practiceExam;
+
+interface Vehical {
+	void run();
+}

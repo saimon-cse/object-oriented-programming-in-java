@@ -1,0 +1,74 @@
+package throw_throws;
+
+/*
+ * Buffer class include
+
+ */
+import java.io.*;
+import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception { // throws IOException, SQLException
+		/*
+		 * Throws keyword -> method ar namer por bose
+		 */
+		
+		int x, y, z;
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Enter a number: ");
+		
+		y = Integer.parseInt(br.readLine()); // the line shows Unhandled exception type IOException // solve the exception add throws keyword in the class name
+
+		
+		System.out.println("Hello World");
+		
+		
+		/*
+		 * Forcefully Exception create
+		 */
+		
+//		int x = 10;
+//		try {
+//			if(x<50) {
+//				throw new Exception("Error the code");
+//			}
+//		}
+//		catch(Exception temp) {
+//			System.out.println(temp);
+//		}
+//		
+//		
+//		/*
+//		 * Force Exception create with my Exception class
+//		 * 
+//		 */
+//		
+//		
+//		int a = 10;
+//		
+//		try {
+//			if(x<50) {
+//				throw new myException("Errrrrrrrroooooooooorrrrrrr");
+//			}
+//		}
+//		catch(myException temp) {
+//			System.out.println(temp);
+//		}
+			
+	
+	}
+
+}
+
+/*
+ * Create my Own Exception
+ */
+
+class myException extends Exception{
+	public myException(String s) {
+		super(s);
+	}
+}
