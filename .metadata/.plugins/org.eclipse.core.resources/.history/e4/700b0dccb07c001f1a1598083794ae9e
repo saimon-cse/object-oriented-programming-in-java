@@ -1,0 +1,6 @@
+package practiceExam;
+
+public abstract class Abst {
+	abstract void print();
+	
+}

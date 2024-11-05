@@ -1,0 +1,10 @@
+package practiceExam;
+
+public class Dog extends Mamal{
+	
+	void sound() {
+		super.name = "Mamal-Dog";
+		super.sound();
+		System.out.println(super.name);
+	}
+}

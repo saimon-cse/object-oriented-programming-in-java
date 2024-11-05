@@ -1,0 +1,17 @@
+package practiceExam;
+class Main {
+  
+
+	public static void main(String[] args)  {
+		
+		Animal a = new Animal();
+		a.sound();
+		a = new Mamal();
+		a.sound();
+		b = a.hello(2, 5);
+		
+		a = new Dog();
+		a.sound();
+	}
+    
+}

@@ -1,0 +1,13 @@
+class Car {
+  
+
+
+public class Main {
+    public static void main(String[] args) {
+        Student x = new CSE();
+        x.print();
+        
+       
+    }
+    
+}
